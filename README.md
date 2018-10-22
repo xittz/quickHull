@@ -1,3 +1,1 @@
-# QuickHull
-QuickHull algorithm implementation
-"quickhull patseev andrey" 
+** QuickHull Patseev Andrey **

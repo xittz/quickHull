@@ -184,5 +184,34 @@ namespace QuickHull11
             points.Clear();
             hullPoints.Clear();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {  
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+            openFileDialog1.Filter = "Text Files|*.txt";
+            openFileDialog1.Title = "Select a .txt file";
+            
+            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                System.IO.StreamReader file = new System.IO.StreamReader(openFileDialog1.FileName);
+                Graphics graphics = Graphics.FromImage(pictureBox1.Image);
+                Pen pen = new Pen(Color.Blue);
+
+                var lineOftext = file.ReadLine();
+                while (lineOftext != null)
+                {
+                    var coordinates = lineOftext.Split(' ');
+                    var x = int.Parse(coordinates[0]);
+                    var y = int.Parse(coordinates[1]);
+                    if (x < pictureBox1.Width && y < pictureBox1.Height)
+                    {
+                        points.Add(new Point(x, y));
+                        graphics.DrawRectangle(pen, x, y, 1, 1);
+                    }
+                    lineOftext = file.ReadLine();
+                }
+                pictureBox1.Invalidate();
+            }
+        }
     }
 }

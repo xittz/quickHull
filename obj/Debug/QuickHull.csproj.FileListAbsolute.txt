@@ -17,3 +17,13 @@ C:\Users\xittz\Desktop\QuickHull-master\obj\Debug\QuickHull.csproj.GenerateResou
 C:\Users\xittz\Desktop\QuickHull-master\obj\Debug\QuickHull.csproj.CoreCompileInputs.cache
 C:\Users\xittz\Desktop\QuickHull-master\obj\Debug\QuickHull11.exe
 C:\Users\xittz\Desktop\QuickHull-master\obj\Debug\QuickHull11.pdb
+C:\Users\xittz\quickhull\bin\Debug\QuickHull11.exe.config
+C:\Users\xittz\quickhull\bin\Debug\QuickHull11.exe
+C:\Users\xittz\quickhull\bin\Debug\QuickHull11.pdb
+C:\Users\xittz\quickhull\obj\Debug\QuickHull.csprojAssemblyReference.cache
+C:\Users\xittz\quickhull\obj\Debug\QuickHull11.Form1.resources
+C:\Users\xittz\quickhull\obj\Debug\QuickHull11.Properties.Resources.resources
+C:\Users\xittz\quickhull\obj\Debug\QuickHull.csproj.GenerateResource.cache
+C:\Users\xittz\quickhull\obj\Debug\QuickHull.csproj.CoreCompileInputs.cache
+C:\Users\xittz\quickhull\obj\Debug\QuickHull11.exe
+C:\Users\xittz\quickhull\obj\Debug\QuickHull11.pdb

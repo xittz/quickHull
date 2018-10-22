@@ -1,0 +1,2 @@
+C:\Programming\C#\QuickHull11\bin\Debug\QuickHull11.exe.config
+C:\Programming\C#\QuickHull\bin\Debug\QuickHull11.exe.config
